@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70223" started-at="2021-06-27T12:31:51 IST" finished-at="2021-06-27T12:33:02 IST">
+    <groups>
+    </groups>
+    <test name="MyTest" duration-ms="70223" started-at="2021-06-27T12:31:51 IST" finished-at="2021-06-27T12:33:02 IST">
+      <class name="parallelpack.ParallelExecutionDemo">
+        <test-method status="PASS" signature="googleOpen()[pri:0, instance:parallelpack.ParallelExecutionDemo@64729b1e]" name="googleOpen" duration-ms="35769" started-at="2021-06-27T12:31:52 IST" finished-at="2021-06-27T12:32:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleOpen -->
+        <test-method status="PASS" signature="bingOpen()[pri:0, instance:parallelpack.ParallelExecutionDemo@64729b1e]" name="bingOpen" duration-ms="30352" started-at="2021-06-27T12:31:52 IST" finished-at="2021-06-27T12:32:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bingOpen -->
+        <test-method status="PASS" signature="yahooOpen()[pri:0, instance:parallelpack.ParallelExecutionDemo@64729b1e]" name="yahooOpen" duration-ms="69922" started-at="2021-06-27T12:31:52 IST" finished-at="2021-06-27T12:33:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooOpen -->
+      </class> <!-- parallelpack.ParallelExecutionDemo -->
+      <class name="testpack.PrioritiseTestcases">
+        <test-method status="PASS" signature="startTheGear()[pri:0, instance:testpack.PrioritiseTestcases@1f554b06]" name="startTheGear" duration-ms="18" started-at="2021-06-27T12:31:52 IST" finished-at="2021-06-27T12:31:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTheGear -->
+      </class> <!-- testpack.PrioritiseTestcases -->
+    </test> <!-- MyTest -->
+  </suite> <!-- Suite -->
+</testng-results>
